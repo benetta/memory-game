@@ -1,0 +1,324 @@
+
+body {
+	margin: 0;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	background-color: rgb(32, 120, 52);
+	background-image: radial-gradient(circle,rgb(32, 120, 52), rgb(27, 105, 45));
+	
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+}
+
+.container {
+	width: 1100px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.controls-row {
+	padding-top: 70px;
+	padding-right: 10px;
+	padding-left: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.controls {
+	border: none;
+	padding: 0;
+	background: none;
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: bold;
+
+	cursor: pointer;
+}
+
+.controls:hover {
+	color: rgb(231, 76, 60);
+}
+
+.controls:active,
+.controls:focus  {
+	color: rgba(231, 76, 60, 0.8);
+	outline: none;
+}
+
+.cards-container {
+	height: 80vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-top: 20px;
+}
+
+.card {
+	width: 165px;
+	height: 229px;
+	margin-bottom: 20px;
+	background-image: url("../img/back_red.png");
+	background-size: cover;
+}
+
+/* ИНФОРМАЦИОННЫЕ ПАНЕЛИ */
+
+.info-screen {
+	margin: 0 auto;
+	
+	width: 80%;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	align-self: center;
+}
+
+.title {
+	text-transform: uppercase;
+}
+
+.text {
+	font-size: 28px;
+	opacity: 0.85;
+	letter-spacing: 0.2px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.btn {
+	margin-top: 20px;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	opacity: 0.85;
+	
+	font-size: 16px;
+	color: #1C7430;	
+
+	cursor: pointer;
+}
+
+.btn:focus, .btn:active {
+	outline: none;
+	opacity: 0.5;
+}
+
+.hidden {
+	display: none;
+}
+
+/*	КАРТЫ	*/
+
+.D2{
+	background-image: url('../img/2D.png');
+}
+
+.D3 {
+	background-image: url('../img/3D.png');
+}
+
+.D4 {
+	background-image: url('../img/4D.png');
+}
+
+.D5 {
+	background-image: url('../img/5D.png');
+}
+
+.D6 {
+	background-image: url('../img/6D.png');
+}
+
+.D7 {
+	background-image: url('../img/7D.png');
+}
+
+.D8 {
+	background-image: url('../img/8D.png');
+}
+
+.D9 {
+	background-image: url('../img/9D.png');
+}
+
+.D0 {
+	background-image: url('../img/0D.png');
+}
+
+.DJ {
+	background-image: url('../img/JD.png');
+}
+
+.DQ {
+	background-image: url('../img/QD.png');
+}
+
+.DK {
+	background-image: url('../img/KD.png');
+}
+
+.DA {
+	background-image: url('../img/AceD.png');
+}
+
+.C2{
+	background-image: url('../img/2C.png');
+}
+
+.C3 {
+	background-image: url('../img/3C.png');
+}
+
+.C4 {
+	background-image: url('../img/4C.png');
+}
+
+.C5 {
+	background-image: url('../img/5C.png');
+}
+
+.C6 {
+	background-image: url('../img/6C.png');
+}
+
+.C7 {
+	background-image: url('../img/7C.png');
+}
+
+.C8 {
+	background-image: url('../img/8C.png');
+}
+
+.C9 {
+	background-image: url('../img/9C.png');
+}
+
+.C0 {
+	background-image: url('../img/0C.png');
+}
+
+.CJ {
+	background-image: url('../img/JC.png');
+}
+
+.CQ {
+	background-image: url('../img/QC.png');
+}
+
+.CK {
+	background-image: url('../img/KC.png');
+}
+
+.CA {
+	background-image: url('../img/AC.png');
+}
+
+.H2{
+	background-image: url('../img/2H.png');
+}
+
+.H3 {
+	background-image: url('../img/3H.png');
+}
+
+.H4 {
+	background-image: url('../img/4H.png');
+}
+
+.H5 {
+	background-image: url('../img/5H.png');
+}
+
+.H6 {
+	background-image: url('../img/6H.png');
+}
+
+.H7 {
+	background-image: url('../img/7H.png');
+}
+
+.H8 {
+	background-image: url('../img/8H.png');
+}
+
+.H9 {
+	background-image: url('../img/9H.png');
+}
+
+.H0 {
+	background-image: url('../img/0H.png');
+}
+
+.HJ {
+	background-image: url('../img/JH.png');
+}
+
+.HQ {
+	background-image: url('../img/QH.png');
+}
+
+.HK {
+	background-image: url('../img/KH.png');
+}
+
+.HA {
+	background-image: url('../img/AH.png');
+}
+
+.S2{
+	background-image: url('../img/2S.png');
+}
+
+.S3 {
+	background-image: url('../img/3S.png');
+}
+
+.S4 {
+	background-image: url('../img/4S.png');
+}
+
+.S5 {
+	background-image: url('../img/5S.png');
+}
+
+.S6 {
+	background-image: url('../img/6S.png');
+}
+
+.S7 {
+	background-image: url('../img/7S.png');
+}
+
+.S8 {
+	background-image: url('../img/8S.png');
+}
+
+.S9 {
+	background-image: url('../img/9S.png');
+}
+
+.S0 {
+	background-image: url('../img/0S.png');
+}
+
+.SJ {
+	background-image: url('../img/JS.png');
+}
+
+.SQ {
+	background-image: url('../img/QS.png');
+}
+
+.SK {
+	background-image: url('../img/KS.png');
+}
+
+.SA {
+	background-image: url('../img/AS.png');
+}

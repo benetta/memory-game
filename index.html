@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Memory: card game</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link href="/img/favicon.ico" rel="icon" type="image/x-icon">
+</head>
+<body data-tid="App">
+	<div class="info-screen start">
+		<img 
+			src="img/StartGame.png" 
+			width="503"
+			srcset="img/StartGame@2x.png 2x" 
+			alt="начать игру">
+		<h1 class="text title">Memory Game</h1>
+		<button class="btn" id="newGame" data-tid="NewGame-startGame">Начать игру</button>
+	</div>
+	
+	<div class="info-screen end hidden">
+		<img 
+			src="img/Group-2.png" 
+			width="508"
+			srcset="img/Group-2@2x.png 2x" 
+			alt="поздравляем!">
+		<p class="text">Поздравляем!</p>
+		<p class="text">Ваш итоговый счет: <span id="endGameScore">0</span></p>
+
+		<button class="btn" id="endGame-retryGame" data-tid="EndGame-retryGame">Ещё раз</button>
+	</div>
+
+	<div class="container hidden animated fadeIn">
+		<div class="controls-row">
+			<button class="controls" id="menu-newGame" data-tid="Menu-newGame">Начать заново</button>
+			<p class="myScore">Очки: <span id="setScore" data-tid="Menu-scores">0</span></p>
+		</div>
+		<div class="cards-container" data-tid="Deck">
+			<div class="card" data-tid="Card"></div>
+			<div class="card" data-tid="Card"></div>
+			<div class="card" data-tid="Card"></div>
+			<div class="card" data-tid="Card"></div>
+			<div class="card" data-tid="Card"></div>
+			<div class="card" data-tid="Card"></div>
+			<div class="card" data-tid="Card"></div>
+			<div class="card" data-tid="Card"></div>
+			<div class="card" data-tid="Card"></div>
+			<div class="card" data-tid="Card"></div>
+			<div class="card" data-tid="Card"></div>
+			<div class="card" data-tid="Card"></div>
+			<div class="card" data-tid="Card"></div>
+			<div class="card" data-tid="Card"></div>
+			<div class="card" data-tid="Card"></div>
+			<div class="card" data-tid="Card"></div>
+			<div class="card" data-tid="Card"></div>
+			<div class="card" data-tid="Card"></div>
+		</div>
+	</div>
+
+	<script src="js/script.min.js"></script>
+</body>
+</html>
